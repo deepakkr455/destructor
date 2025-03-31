@@ -51,7 +51,7 @@ class ScriptModifier:
             remaining_minutes, remaining_seconds = divmod(i, 60)
             print(f'{remaining_minutes} minutes {remaining_seconds} seconds remaining.')
             if i == 10:
-                print('I am going to destroy it.')
+                print('Code line will be remove.....')
         
         # Call the function, specifying the line numbers to remove
         self.modify_script(lines_to_remove)
